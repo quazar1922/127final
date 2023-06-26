@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Single Happy and Free!</title>
+<meta charset="utf-8">
+</head>
+<header>
+<h1>How do you like It?</h1>\
+<body>
+<nav>
+ <a href="singlehappyfreeindex.html">Home</a> &nbsp;
+ <a href="creator.html">Creator</a> &nbsp;
+ <a href="table.html">Table of Qualities</a> &nbsp;
+ <a href="ratings.html">How do you like it</a> &nbsp;
+</nav>
+<p> Thanks for reading Single, Happy and Free.  In order to bring you a more immersive journey, please take time to give a rating and comments to improve the Website.</p>
+</header>
+<form method="post"
+action="https://webdevbasics.ent/scripts/demo.php">
+  <label for="myFirstName">* First Name<label>
+  <input type="text" name="myFirstName"
+         id="myFirstName" required="required"
+         placeholder="your first name">
+  <label for="myLastName">* Last Name</label>
+  <input type="text" name="myLastName"
+         id="myLastName" required="required"
+         placeholder="your last name">
+  <label for "myEmail">* Email</label>
+  <input type="email" name="myEmail" 
+         id="myEmail" required="required"
+         placeholder="you@domain.com">
+  <label for "phone"> Phone Number:</label>
+  <input type="tel" name="Phone" 
+         id="phone" required="required"
+         placeholder="Phone"
+  <label for "range">* Rating (1 &mdash; 10)</label>
+  <input type="range" name="myRatings"
+         id="myRating" min="1" max="10"         
+  <label for "myComments">* Comments</label>
+<textarea name="MyComments" id="myComments"
+          rows="2" cols="30"
+          required="required"
+	  placeholder="your comments here"
+</textarea>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
